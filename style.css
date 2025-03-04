@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background: url("https://us1.discourse-cdn.com/elastic/original/3X/9/0/90df22ab443662d632838fd82f6ea38b2cba025a.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.container{
+    background-color: rgb(227, 194, 194);
+    border-radius: 30px;
+    padding: 30px;
+    width: 600px;
+    color: #fff;
+}
+
+.container h1{
+    font-family: 17px;
+    text-align: center;
+}
+
+.container .input-form{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0px;
+}
+
+.container .input-form input{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,0.5);
+    border-radius: 40px;
+    font-size: 14px;
+    padding: 20px 45px 20px 20px;
+    color: white;
+
+}
+
+.input-form input::placeholder{
+    color: white;
+}
+
+.input-form i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.container .register{
+    display: flex;
+    justify-content: space-between;
+    font-family: 14px;
+}
+
+.register label input{
+    margin-right: 3px;
+}
+
+.register a{
+    text-decoration: none;
+    color: white;
+}
+
+.register a:hover{
+    text-decoration: underline;
+}
+
+.container .btn{
+    margin: 20px 0px;
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.2);   
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+
+}
+
+.container .remember{
+    font-size: 15px;
+    text-align: center;
+
+}
+
+.remember a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.remember a:hover{
+    text-decoration: underline;
+}
