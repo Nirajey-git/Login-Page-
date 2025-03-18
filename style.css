@@ -24,6 +24,8 @@ body{
     color: #fff;
 }
 
+
+
 .container h1{
     font-family: 17px;
     text-align: center;
@@ -112,3 +114,171 @@ body{
 .remember a:hover{
     text-decoration: underline;
 }
+
+.container-register{
+    background-color: rgb(227, 194, 194);
+    border-radius: 30px;
+    padding: 30px;
+    width: 600px;
+    color: #fff;
+}
+
+.container-register h1{
+    font-family: 17px;
+    text-align: center;
+
+}
+
+.container-register .form-input{
+    width: 100%;
+    height: 50px;
+    margin: 30px 0px;
+}
+
+
+.container-register .form-input input{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,0.5);
+    border-radius: 40px;
+    font-size: 14px;
+    padding: 20px 45px 20px 20px;
+    color: white;
+
+}
+
+.form-input input::placeholder{
+    color: white;
+}
+
+.container-register .btn{
+    margin: 3px 0px;
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.2);   
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+
+}
+
+.container-register .remember-me{
+    padding: 15px;
+    font-size: 15px;
+    text-align: center;
+
+}
+
+.remember-me a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.remember-me a:hover{
+    text-decoration: underline;
+}
+
+
+.forget-main{
+    background-color: rgb(227, 194, 194);
+    border-radius: 30px;
+    padding: 30px;
+    width: 600px;
+    color: #fff;
+}
+
+.forget-main h1{
+    font-family: 17px;
+    text-align: center;
+
+}
+
+.forget-main p{
+    font-family: 12px;
+    text-align: center;
+
+}
+
+.forget-main .input-form-forget{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0px;
+}
+
+.forget-main .input-form-forget{
+    width: 100%;
+    height: 50px;
+    margin: 30px 0px;
+}
+
+.forget-main .input-form-forget input{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,0.5);
+    border-radius: 40px;
+    font-size: 14px;
+    padding: 20px 45px 20px 20px;
+    color: white;
+
+}
+
+.input-form-forget i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.forget-main .btn{
+    margin: 1px 0px;
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.2);   
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+
+}
+.remember-password{
+    position: relative;
+    padding: 15px;
+    text-align: center;
+}
+
+.remember-password i{
+   position: absolute;
+    top:20%;
+    left: 35%;
+    font-size: 30px;
+    margin-top: 0px;
+   
+}
+.remember-password a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.remember-password a:hover{
+    text-decoration: underline;
+}
+
